@@ -1,0 +1,3 @@
+$ oc get all --selector app=nbviewer -o name
+
+$ oc delete all --selector app=nbviewer
